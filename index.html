@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>WEPE ORGANIZER</title>
+   <link rel="icon" href="logo.PNG" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans text-gray-800;scroll-smooth">
@@ -26,22 +27,21 @@
           d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
-
-    <!-- Desktop Menu -->
+     <!-- Desktop Menu -->
     <div class="hidden md:flex items-center space-x-8 text-base font-medium">
-      <a href="#about" class="px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Tentang Kami</a>
-      <a href="#clients" class="px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Klien</a>
-      <a href="#wedding-package" class="px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Wedding Package</a>
-      <a href="#contact" class="px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Kontak</a>
+      <a href="#about" class="px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Tentang Kami</a>
+      <a href="#clients" class="px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Klien</a>
+      <a href="#wedding-package" class="px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Wedding Package</a>
+      <a href="#contact" class="px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Kontak</a>
     </div>
   </div>
 
   <!-- Mobile Dropdown Menu -->
   <div id="nav-menu" class="md:hidden hidden bg-white px-6 pb-4 space-y-2 shadow-md">
-    <a href="#about" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Tentang Kami</a>
-    <a href="#clients" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Klien</a>
-    <a href="#wedding-package" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Wedding Package</a>
-    <a href="#contact" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-pink-600 hover:bg-pink-50 transition">Kontak</a>
+    <a href="#about" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Tentang Kami</a>
+    <a href="#clients" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Klien</a>
+    <a href="#wedding-package" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Wedding Package</a>
+    <a href="#contact" class="block px-3 py-2 rounded-lg text-gray-800 hover:text-gray-600 hover:bg-gray-50 transition">Kontak</a>
   </div>
 </nav>
 
@@ -67,7 +67,7 @@
       Selamat Datang di WEPE ORGANIZER
     </h1>    
     <p class="text-2xl md:text-3xl mb-10" style="font-family: 'Cal Sans', sans-serif;">
-      TELL US YOUR EXPECTATIONS, WE WILL MAKE IT HAPPEN
+      "TELL US YOUR EXPECTATIONS, WE WILL MAKE IT HAPPEN"
     </p>
   </div>
 </section>
@@ -187,25 +187,39 @@ cinta Anda, menjadikannya lebih indah, tertata, dan berkesan.
     </p>
     
     <!-- Link Kontak -->
-    <div class="flex justify-center flex-wrap gap-4">
-      <!-- WhatsApp -->
-      <a href="https://wa.me/6287762250766" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-grey-600 transition">
-        WhatsApp
-      </a>
+  <div class="flex justify-center flex-wrap gap-4">
+  <!-- WhatsApp -->
+  <a href="https://wa.me/6287762250766" target="_blank"
+     class="inline-block bg-green-500 text-white p-3 rounded-full hover:bg-green-500 transition"
+     aria-label="Chat via WhatsApp">
+    <i class="fab fa-whatsapp text-xl"></i>
+  </a>
 
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/wepe.organizer" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-grey-600 transition">
-        Instagram
-      </a>
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/wepe.organizer" target="_blank" 
+     class="inline-block bg-pink-500 text-white p-3 rounded-full hover:bg-gray-600 transition" 
+     aria-label="Instagram">
+    <i class="fab fa-instagram text-xl"></i>
+  </a>
 
-      <!-- TikTok -->
-      <a href="https://www.tiktok.com/@wepe.organizer" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
-        TikTok
-      </a>
-      <a href="mailto:wepeorganizer@gmail.com" target="_blank" class="inline-block bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
-        Gmail Kami
-      </a>
-    </div>
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@wepe.organizer" target="_blank" 
+     class="inline-block bg-black text-white p-3 rounded-full hover:bg-gray-800 transition" 
+     aria-label="TikTok">
+    <i class="fab fa-tiktok text-xl"></i>
+  </a>
+
+  <!-- Gmail -->
+  <a href="mailto:wepeorganizer@gmail.com" target="_blank" 
+     class="inline-block bg-red-500 text-white p-3 rounded-full hover:bg-gray-800 transition" 
+     aria-label="Gmail Kami">
+    <i class="fas fa-envelope text-xl"></i>
+  </a>
+  
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</div>
     <div class="mx-auto max-w-md w-full h-72 rounded-xl overflow-hidden shadow-lg">
       <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.2954302646817!2d111.18563476415544!3d-6.9394025613219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7735ff90510f35%3A0x49bac9552af26a27!2sPadas%2C%20Todanan%2C%20Kec.%20Todanan%2C%20Kabupaten%20Blora%2C%20Jawa%20Tengah%2058256!5e0!3m2!1sid!2sid!4v1746537985656!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
